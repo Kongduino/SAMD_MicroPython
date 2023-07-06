@@ -38,6 +38,10 @@ Included commands so far:
 * `test_sx1276.py`: a script to test the `sx127x.py` library. The script works on any machine that has an SX1276 connected to it – you just need to set the pins properly. This is set up for a Nucleo-L476RG.
 * `sx127x.py`: the library. There are several version floating around, and most have issues. I have fixed most of them, and added features like TRNG. It'll do nicely until I write a library in C.
 
+![Demo_01](assets/Demo_01.png)
+![Demo_02](assets/Demo_02.png)
+
+
 ### Tools
 
 * `calculate_crc_table.c`: In the `crc.c` file, there's a function to compute the CRC table. I printed it out and initialize it at compile time, to save space, and improve speed.
