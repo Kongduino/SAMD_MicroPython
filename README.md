@@ -41,7 +41,7 @@ Included commands so far:
 ### Tools
 
 * `calculate_crc_table.c`: In the `crc.c` file, there's a function to compute the CRC table. I printed it out and initialize it at compile time, to save space, and improve speed.
-* `ziphex.sh`: a bash script to zip the .hex builds, before pushing to GitHub.
+* `zipuf2.sh`: a bash script to zip the .uf2 builds, before pushing to GitHub.
 
 
 ## TODO
